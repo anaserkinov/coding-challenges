@@ -8,7 +8,7 @@ private fun solution_1(): Int{
     var current = 50
     var result = 0
 
-    File("src/main/kotlin/aoc/y2025/input.txt").readLines()
+    File("src/main/kotlin/aoc/y2025/d1/input.txt").readLines()
         .map {
             it.substring(1).toInt() * if (it.first() == 'R') 1 else -1
         }.forEach {
@@ -26,7 +26,7 @@ private fun solution_2(): Int{
     var current = 50
     var result = 0
 
-    File("src/main/kotlin/aoc/y2025/input.txt").readLines()
+    File("src/main/kotlin/aoc/y2025/d1/input.txt").readLines()
         .map {
             it.substring(1).toInt() * if (it.first() == 'R') 1 else -1
         }.forEach {
