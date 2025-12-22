@@ -1,4 +1,4 @@
-package leetcode.p0019_remove_Nth_node_from_end_of_ist
+package leetcode.p0019_remove_nth_node_from_end_of_ist
 
 class ListNode(var `val`: Int) {
     var next: ListNode? = null
